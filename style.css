@@ -1,7 +1,7 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 header {
@@ -20,7 +20,7 @@ main {
   margin-right: 30px;
   padding: 10px;
   position: relative;
-  background-color: #eeeeee;
+  background-color: #eee;
 }
 
 .step-box:last-child {
@@ -62,10 +62,10 @@ main {
 
 footer {
   height: 50px;
-  background-color: #aaaaaa;
+  background-color: #aaa;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   header {
     width: 100%;
   }
@@ -81,5 +81,4 @@ footer {
     margin-right: 5%;
     margin-bottom: 20px;
   }
-  
-}  
+}
